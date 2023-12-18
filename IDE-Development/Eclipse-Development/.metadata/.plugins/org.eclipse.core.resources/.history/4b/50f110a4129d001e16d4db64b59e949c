@@ -1,0 +1,17 @@
+package app2.pack1;
+class  B
+{
+	private int i;
+	private static int j;
+}
+class C extends B
+{
+	
+	{
+		B b1 = new B();
+		System.out.println(b1.i);
+		b1.test1();
+		System.out.println(B.j);
+		B.test2();
+	}
+}
